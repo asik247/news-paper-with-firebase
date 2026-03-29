@@ -1,6 +1,7 @@
 import React from 'react';
 import Headder from '../Components/Headder';
 import LatestNews from '../Components/LatestNews';
+import Navbar from '../Components/Navbar';
 
 const HomeLayout = () => {
     return (
@@ -8,9 +9,13 @@ const HomeLayout = () => {
             {/* Header code start here */}
             <Headder></Headder>
             {/* Latest News Section code start here */}
-            <section>
+            <section className='w-11/12 mx-auto my-4'>
                 <LatestNews></LatestNews>
             </section>
+            {/* nav code start here */}
+            <nav className='w-11/12 mx-auto my-4'>
+                <Navbar></Navbar>
+            </nav>
         </div>
     );
 };
