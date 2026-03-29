@@ -2,11 +2,11 @@ import React from 'react';
 import { useParams } from 'react-router';
 
 const CategoryNews = () => {
-    const obj = useParams()
-    console.log(obj);
+    const {id} = useParams()
+    console.log(id);
     return (
         <div>
-            categoryNews
+            categoryNews {id}
         </div>
     );
 };
