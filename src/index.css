@@ -31,3 +31,6 @@
 .paused {
   animation-play-state: paused;
 }
+a.active{
+  @apply bg-base-300
+}
